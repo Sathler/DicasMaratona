@@ -1,5 +1,13 @@
 .jumbotron{
-    background-color: lightblue;
+    background-color: #5f5ffc;
+}
+
+.container{
+    background-color: white;
+}
+
+p{
+    text-indent: 40px;
 }
 
 #id_title{
@@ -7,7 +15,7 @@
 }
 
 .card-header{
-    background-color: lightblue; 
+    background-color: #5f5ffc; 
 }
 
 .btn-link{
