@@ -1,0 +1,20 @@
+.jumbotron{
+    background-color: lightblue;
+}
+
+#id_title{
+    color: white;
+}
+
+.card-header{
+    background-color: lightblue; 
+}
+
+.btn-link{
+    color: white;
+    text-decoration: none;
+}
+
+.btn-link:hover{
+    color: white;
+}
