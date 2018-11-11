@@ -25,6 +25,10 @@ footer{
     background-color: #5f5ffc; 
 }
 
+.card-header-sm{
+    background-color: #5f5ffc; 
+}
+
 .btn-link{
     color: white;
     text-decoration: none;
@@ -48,6 +52,24 @@ footer{
     padding-top: 30px;
 }
 
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: #DDDDDD;
+}
+
+#header_block{
+    border: #5f5ffc solid 2px;
+    background-color: white;
+    padding: 0;
+}
+
+#nav_block{
+    border-radius: 0;
+}
+
 @media (max-width: 992px){
     #foto1{
         margin-top: 30px;
@@ -56,5 +78,11 @@ footer{
     #foto2{
         margin-top: 30px;
         border: #5f5ffc solid 2px;
+    }
+}
+
+@media (max-width: 575px){
+    #nav_index{
+        text-align: center;
     }
 }
