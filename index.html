@@ -1,128 +1,148 @@
 <!DOCTYPE html>
 <html lang="pt">
-    <head>
-        <!-- META -->
-        <meta charset="utf-8"/>
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <meta name="keyword" content="maratona, UERJ, Semana IME, dicas para maratona"/>
-        <meta name="author" content="Vincius Sathler"/>
-        <meta name="desciption" content="XII Maratona UERJ"/>
-        <title>XII Maratona de programação UERJ</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/main.css"/>
-        
-    </head>
-    <body>
-        <div class="container">
-            <header>
-                <div id="header_block" class="jumbotron">
-                    <div id="nav_block" class="jumbotron">
-                            <nav id="nav_index" class="navbar navbar-expand-sm justify-content-center">
-                                    <div>
-                                        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-collapse">
-                                            <span class="navbar-toggler-icon"><img id="icon-menu" src="img/si-glyph-in-columns.svg"/></span>
-                                        </button>
-                                        <div class="collapse navbar-collapse" id="nav-collapse">
-                                            <ul class="navbar-nav">
-                                                <li class="nav-item active">
-                                                    <a class="nav-link" href="index.html">Início</a>
-                                                </li>
-                                                <div class="d-none d-sm-block">
-                                                    <li class="nav-item active">
-                                                        <a class="nav-link " href="questoes.html">Questões</a>
-                                                    </li>
-                                                </div>
-                                                <div class="d-block d-sm-none">
-                                                    <li class="nav-item active">
-                                                        <a class="nav-link" href="pdf/Problemas20181018.pdf" download>Questões</a>
-                                                    </li>
-                                                </div>
-                                                <li class="nav-item active">
-                                                    <a class="nav-link" href="solucoes.html">Soluções</a>
-                                                </li class="nav-item active">
-                                                <div class="d-none d-sm-block">
-                                                    <li class="nav-item active">
-                                                        <a class="nav-link" href="resultados.html">Resultado</a>
-                                                    </li>
-                                                </div>
-                                                <div class="d-block d-sm-none">
-                                                    <li><a class="nav-link" href="pdf/resultados2018.pdf" download>Resultado</a></li>
-                                                </div>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </nav>
+
+<head>
+    <!-- META -->
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keyword" content="maratona, UERJ, Semana IME, dicas para maratona" />
+    <meta name="author" content="Vincius Sathler" />
+    <meta name="desciption" content="XII Maratona UERJ" />
+    <title>XII Maratona de programação UERJ</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css" />
+
+</head>
+
+<body>
+    <header class='mb-5'>
+        <nav class="navbar navbar-expand-sm bg-primary flex-nowrap">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar5">
+                <span class="navbar-toggler-icon"><img id="icon-menu" src="img/si-glyph-in-columns.svg" /></span>
+            </button>
+            <span class="navbar-brand w-100"><img id="logo" class="d-none d-sm-block rounded-circle img-fluid" src="img/uerj_logo.jpg"></span>
+            <div class="navbar-collapse collapse w-100 justify-content-center" id="navbar5">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Início</a>
+                    </li>
+                    <div class="d-none d-sm-block">
+                        <li class="nav-item">
+                            <a class="nav-link " href="questoes.html">Questões</a>
+                        </li>
                     </div>
-                    <p id="header-text" class="text-center">
-                        Projeto de Extensão: Ambientes para Competições em Programação<br>
-                        DICC/IME/UERJ<br>
-                        Profs: Paulo E. D. Pinto, Fabiano Oliveira, Igor M. Coelho e Rosa M. E. M. Costa</p>
-                </div>
-            </header>
-                
-            <section class="col-12 row mx-auto">
-                <h5>Sobre a maratona</h5>
-                <p class="text-justify">
-                        A XII Maratona UERJ de Programação foi realizada em 18/10/2018, dentro da comemoração da XII Semana do IME, tendo
-                        participado 24 times da UERJ. A competição foi realizada nos novos laboratórios do IME, salas 6142 e 6145. Participaram
-                        da organização os professores Igor M. Coelho, Fabiano Oliveira, Paulo Eustáquio e Rosa Costa. Colaboraram no evento
-                        Moysés Sampaio, Anderson Zudio e Pedro Marques.
-                </p>
-            </section>
-            <div class="row">
-                <section id="section1" class="col-12">
-                    <article class="col-lg-6 float-left">
-                        A competição teve os seguintes problemas, todos de autoria de Juan P. Alves Lopes e Paulo E. D. Pinto:<br><br>
-                        <ol>
-                            <li> <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/2889" target="_blank">O Tasco é Sempre Vice! </a>
-                            </li>
-                            <li> <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/2890" target="_blank">Colorindo Tetraedros </a>
-                            </li>
-                            <li> <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/2891" target="_blank">Um Problema com Final
-                                    Feliz </a> </li>
-                            <li> <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/2892" target="_blank">Treino No Velódromo </a>
-                            </li>
-                            <li> <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/2893" target="_blank">Fibonac^{k}i </a> </li>
-                            <li> <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/2894" target="_blank">Virus </a> </li>
-                            <li> <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/2895" target="_blank">Velhas Balanças </a> </li>
-                            <li> <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/2896" target="_blank"> Aproveite a Oferta </a>
-                            </li>
-                        </ol>
-                    </article>
-                    <aside class="col-lg-6 float-right">
-                        <img id="foto1" src="img\FOTO1.jpg" class="img-fluid rounded" alt="maratonaIMEsala1">
-                    </aside>
-                </section>
+                    <div class="d-block d-sm-none">
+                        <li class="nav-item">
+                            <a class="nav-link" href="pdf/Problemas20181018.pdf" download>Questões</a>
+                        </li>
+                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="solucoes.html">Soluções</a>
+                    </li class="nav-item">
+                    <div class="d-none d-sm-block">
+                        <li class="nav-item">
+                            <a class="nav-link" href="resultados.html">Resultado</a>
+                        </li>
+                    </div>
+                    <div class="d-block d-sm-none">
+                        <li><a class="nav-link" href="pdf/resultados2018.pdf" download>Resultado</a></li>
+                    </div>
+                </ul>
             </div>
-            <div id="section2" class="row">
-                <div class="col-12">
-                    <article class="col-lg-6 float-left">
-                        <p class="text-justify">O time campeão foi formado pelos alunos de graduação Igor Sousa e Vinícius Sathler. Em segundo lugar ficou o time
-                        formado pelo aluno Antonio Schonmann . Foi também dado um prêmio especial para os alunos veteranos: Giancarlo França e
+            <div class="w-100 ">
+                <img id="logo" class="ml-auto d-block d-sm-none rounded-circle img-fluid" src="img/uerj_logo.jpg">
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+
+        <div id="header_block" class="jumbotron">
+            <p id="header-text" class="text-center">
+                Projeto de Extensão: Ambientes para Competições em Programação<br>
+                DICC/IME/UERJ<br>
+                Profs: Paulo E. D. Pinto, Fabiano Oliveira, Igor M. Coelho e Rosa M. E. M. Costa</p>
+        </div>
+
+        <section class="col-12 row mx-auto">
+            <h5>Sobre a maratona</h5>
+            <p class="text-justify">
+                A XII Maratona UERJ de Programação foi realizada em 18/10/2018, dentro da comemoração da XII Semana do
+                IME, tendo
+                participado 24 times da UERJ. A competição foi realizada nos novos laboratórios do IME, salas 6142 e
+                6145. Participaram
+                da organização os professores Igor M. Coelho, Fabiano Oliveira, Paulo Eustáquio e Rosa Costa.
+                Colaboraram no evento
+                Moysés Sampaio, Anderson Zudio e Pedro Marques.
+            </p>
+        </section>
+        <div class="row">
+            <section id="section1" class="col-12">
+                <article class="col-lg-6 float-left">
+                    A competição teve os seguintes problemas, todos de autoria de Juan P. Alves Lopes e Paulo E. D.
+                    Pinto:<br><br>
+                    <ol>
+                        <li> <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/2889" target="_blank">O
+                                Tasco é Sempre Vice! </a>
+                        </li>
+                        <li> <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/2890" target="_blank">Colorindo
+                                Tetraedros </a>
+                        </li>
+                        <li> <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/2891" target="_blank">Um
+                                Problema com Final
+                                Feliz </a> </li>
+                        <li> <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/2892" target="_blank">Treino
+                                No Velódromo </a>
+                        </li>
+                        <li> <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/2893" target="_blank">Fibonac^{k}i
+                            </a> </li>
+                        <li> <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/2894" target="_blank">Virus
+                            </a> </li>
+                        <li> <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/2895" target="_blank">Velhas
+                                Balanças </a> </li>
+                        <li> <a href="https://www.urionlinejudge.com.br/judge/pt/problems/view/2896" target="_blank">
+                                Aproveite a Oferta </a>
+                        </li>
+                    </ol>
+                </article>
+                <aside class="col-lg-6 float-right">
+                    <img id="foto1" src="img\FOTO1.jpg" class="img-fluid rounded" alt="maratonaIMEsala1">
+                </aside>
+            </section>
+        </div>
+        <div id="section2" class="row">
+            <div class="col-12">
+                <article class="col-lg-6 float-left">
+                    <p class="text-justify">O time campeão foi formado pelos alunos de graduação Igor Sousa e Vinícius
+                        Sathler. Em segundo lugar ficou o time
+                        formado pelo aluno Antonio Schonmann . Foi também dado um prêmio especial para os alunos
+                        veteranos: Giancarlo França e
                         Raquel Marcolino.</p>
-                    </article>
-                    <div class="col-lg-6 float-right">
-                        <img id="foto2" src="img\FOTO2.jpg" class="img-fluid rounded" alt="maratonaIMEsala1">
-                    </div>
+                </article>
+                <div class="col-lg-6 float-right">
+                    <img id="foto2" src="img\FOTO2.jpg" class="img-fluid rounded" alt="maratonaIMEsala1">
                 </div>
             </div>
         </div>
-        <footer class="text-light">
-            <nav class="navbar navbar-expand justify-content-center">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#top">Topo</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="https://www.ime.uerj.br/~pauloedp/pauloeustaquio.html">Home</a>
-                    </li>
-        
-                </ul>
-            </nav>
-        </footer>
+    </div>
+    <footer class="bg-primary text-light">
+        <nav class="navbar navbar-expand justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#top">Topo</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://www.ime.uerj.br/~pauloedp/pauloeustaquio.html">Home</a>
+                </li>
 
-        <script src="js/jquery-3.3.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    </body>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
